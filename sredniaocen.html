@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>e</title>
+</head>
+<body>
+  <script>
+  let a = Number(prompt("podaj ocene ucznia nr 1"));
+  let b = Number(prompt("podaj ocene ucznia nr 2"));
+  let c = Number(prompt("podaj ocene ucznia nr 3"));
+  let d = Number(prompt("podaj ocene ucznia nr 4"));
+  let e = Number(prompt("podaj ocene ucznia nr 5"));
+  let srednia = (a+b+c+d+e)/5;
+  let ocena;
+  if(srednia>90){
+    ocena = 'A';
+  }
+  else if(srednia>80){
+    ocena = 'B';
+  }
+  else if(srednia>70){
+    ocena = 'C';
+  }
+  else if(srednia>60){
+    ocena = 'D';
+  }
+  else{
+    ocena = 'F';
+  }
+  document.write(ocena);
+  </script>
+</body>
+</html>
